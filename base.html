@@ -1,0 +1,59 @@
+<!doctype "html">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Section Page</title>
+<link rel="stylesheet" href="">
+
+<meta description="Section made with CSS" />
+<style>
+
+section { background-color: lightgreen; }
+p { background-color: lightblue; }
+
+
+.head  h1 { text-align: center; }
+.head img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+ 
+  
+}
+
+@media only screen and (orientation: portrait) {
+
+ section { background-color: lightblue; }
+ p { background-color: lightgreen; }
+ 
+ .head  h1 { background-color: yellow; text-align: center; }
+ .head  img {
+   width: 100%;
+   display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="head" >
+<H1>Hello world!	
+
+<img src="widepic.png" alt="Wide dude">
+</H1>
+</div>
+
+<div>
+<section>This is a paragraph!<br>
+Its made with HTML5</section>
+<div><img src="somepic.jpg" alt="Tall dude"></div>
+<p>This another paragraph but made with HTML4!</p>
+</div>
+
+
+</body>
+</html>
